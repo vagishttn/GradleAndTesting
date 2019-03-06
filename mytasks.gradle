@@ -1,0 +1,8 @@
+task myTask {
+    doFirst {
+        println "First"
+    }
+    doLast {
+        println "Last"
+    }
+}
